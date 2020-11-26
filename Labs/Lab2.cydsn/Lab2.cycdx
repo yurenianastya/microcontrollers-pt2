@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
+  <block name="button_isr" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Button_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Control_Reg" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+    <register name="Control_Reg_CONTROL_REG" address="0x400F0072" bitWidth="8" desc="" hidden="false" />
+  </block>
+  <block name="Em_EEPROM_Dynamic" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="cy_lfclk" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="timer_isr" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_Red" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_Yellow" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_Green" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Clock_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Timer_Counter" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+    <block name="VMux_count" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="VMux_reload" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="VMux_start" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="VMux_stop" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="VMux_capture" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="VMux_clock" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="cy_m0s8_tcpwm_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <register name="COUNTER" address="0x40050108" bitWidth="32" desc="Current counter value" hidden="false" />
+    <register name="CC" address="0x4005010C" bitWidth="32" desc="Compare / capture value" hidden="false" />
+    <register name="CC_BUF" address="0x40050110" bitWidth="32" desc="Compare / capture buffer value" hidden="false" />
+    <register name="PERIOD" address="0x40050114" bitWidth="32" desc="Period value" hidden="false" />
+    <register name="PERIOD_BUF" address="0x40050118" bitWidth="32" desc="Period buffer value" hidden="false" />
+  </block>
+  <block name="Bootloadable" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+</blockRegMap>
